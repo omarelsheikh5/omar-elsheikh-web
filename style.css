@@ -79,10 +79,9 @@ ul a:hover{
     padding: 30px;
 }
 
-.content h2{
+.text{
     font-size: 100px;
     text-transform: uppercase;
-
 }
 
 .content p{
@@ -105,3 +104,23 @@ cursor: pointer;
    color: #fff;
 }
 
+@media (min-width:950px) and (max-width:1150px) {
+
+    .content{
+        width: 330px;
+    }
+}
+
+@media (max-width: 408px) {
+
+    .container, p{
+        font-size: 12px;
+    }
+
+    .text{
+        font-size:50px;
+    }
+    .logo{
+        font-size: 26px;
+    }
+}
